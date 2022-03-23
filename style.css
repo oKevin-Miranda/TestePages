@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #191919;
+}
+
+header{
+    position: relative;
+}
+#formularioPersonagem {
+    width: 1565px;
+    height: 180px;
+    padding-top: 15px;
+    padding-left: 146px;
+    border: solid #292929 1px;
+    border-radius: 12px;
+    background-color: #292929;
+    padding-right: 190px;
+    text-align: center;
+
+}
+
+#nomePersonagem, #nomeLocal, #imagemPersonagem {
+    width: 300px;
+    height: 100x;
+    padding: 10px;
+    border: solid #282828 1px;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#check {
+    font-size: 36px;
+    font: Roboto;
+    color: white;
+    line-height: 42.19px;
+    font-weight: bold;
+}
+
+#botaoAdicionar {
+    font-size: 25px;
+    color: white;
+    line-height: 42.19px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 12px;
+    margin-top: 10px;
+    border: black;
+    padding: 2px 10px 2px 10px;
+}
+
+#bordaBotao {
+    border: 1px;
+}
+
+h1 { 
+    font-size: 36px;
+    font: Roboto;
+    color: white;
+    line-height: 42.19px;
+    font-weight: bold;
+}
+
+.teste {
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.teste #blocks .imagem {
+    width: 333px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 9px;
+    border: #202020 solid 2px;
+    background-color: #202020;
+}
+
+.teste #blocks {
+    width: 336px;
+    height: 280px;
+    border: #202020 solid 1px;
+    margin: 10px;
+    border-radius: 12px;
+    position: relative;
+    color: white;
+    background-color: #202020;
+    flex-basis: 1px;
+    padding: 10px 09px 0px 10px;
+}
+
+.teste #blocks h3 {
+    padding-top: 5px;
+    padding-right: 10px;
+    text-align:end;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.teste #blocks p {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 0;
+}
+
+h1 {
+    margin: 5px 10px 0 5px;
+    padding: 0;
+}
